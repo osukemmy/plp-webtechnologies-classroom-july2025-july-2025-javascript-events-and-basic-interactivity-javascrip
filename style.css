@@ -1,0 +1,38 @@
+/* Keep original styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header, footer {
+  background: #ffcc66;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Dark mode styles */
+.dark-theme {
+  background-color: #222;
+  color: #eee;
+}
+
+.dark-theme header, .dark-theme footer {
+  background: #444;
+  color: #fff;
+}
+
+.dark-theme form {
+  background: #333;
+  color: white;
+}
+
+/* Message display for form */
+#form-message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
